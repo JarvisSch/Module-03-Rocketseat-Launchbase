@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+body{
+    background: url(https://skylab.rocketseat.com.br/static/a4edba24f9a571dbb09c831694960cdf.png) 0% 0% / cover fixed, rgb(11, 10, 13);
+    background-attachment: fixed;
+    font-family: 'Roboto';
+    color: white;
+}
+header{
+    padding: 30px;
+}
+/* === CARDS === */
+.cards{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+    
+            
+}
+
+.card_image-container-starter{
+    
+    border-radius: 2%;
+    border: 2px Solid #7159C1;
+    padding-top: 80px;
+    text-align: center;
+    background: url(https://skylab.rocketseat.com.br/static/a4edba24f9a571dbb09c831694960cdf.png) 0% 0% / cover fixed, rgb(11, 10, 13);
+    background-attachment: fixed;
+    max-height: 580px;
+    cursor: pointer;      
+
+}
+.card_image-container-starter span{
+    color: #7159C1;
+    font-weight: 900;
+    font-size: 20px;
+    height: 44px;
+    padding: 15px; 
+    border-radius: 50%;
+    border: #7159C1 solid 2px;
+          
+}
+.card_image-container-starter img{
+    padding-top: 30px;
+    height: 175px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+    .card_image-container-starter p strong{
+    color: #7159C1;
+    font-weight: 900;
+        
+    }
+.card_image-container-starter p{
+    text-align: center;
+    max-width: 280px;
+    padding: 0px 90px;
+    margin: 20px 0px;  
+    line-height: 25px;
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 85px;
+
+    
+}
+.card_image-container-starter .card-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2px;
+    max-height: 80px;
+    
+}
+.card_image-container-starter .card-info h1{
+    color: #7159C1;
+    height:80px;
+    
+
+}
+.card_image-container-starter .card-info h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100px;
+    max-height: 30px;
+    border-radius: 10px;
+    border: solid #7159C1 2px;
+    margin-left: 65px;
+    
+}
+.card_image-container-base{
+    border-radius: 2%;
+    border: 2px Solid #FD951F;
+    padding-top: 80px;
+    text-align: center;
+    background: url(https://skylab.rocketseat.com.br/static/a4edba24f9a571dbb09c831694960cdf.png) 0% 0% / cover fixed, rgb(11, 10, 13);
+    background-attachment: fixed;
+    max-height: 580px;
+    cursor: pointer;
+}
+.card_image-container-base span{
+    color: #FD951F;
+    font-weight: 900;
+    font-size: 20px;
+    height: 44px;
+    padding: 15px; 
+    border-radius: 50%;
+    border: #FD951F solid 2px;
+          
+}
+.card_image-container-base img{
+    padding-top: 30px;
+    height: 175px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+    .card_image-container-base p strong{
+    color: #FD951F;
+    font-weight: 900;
+        
+    }
+.card_image-container-base p{
+    text-align: center;
+    max-width: 280px;
+    padding: 0px 90px;
+    margin: 20px 0px;  
+    line-height: 25px;
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 85px;
+
+    
+}
+.card_image-container-base .card-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2px;
+    max-height: 80px;
+    
+}
+.card_image-container-base .card-info h1{
+    color: #FD951F;
+    height: 80px;
+
+}
+.card_image-container-base .card-info h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100px;
+    max-height: 30px;
+    border-radius: 10px;
+    border: solid #FD951F 2px;
+    margin-left: 65px;
+    
+}    
+.card_image-container-Gostack{
+    border-radius: 2%;
+    border: 2px Solid #04D361;
+    padding-top: 80px;
+    text-align: center;
+    background: url(https://skylab.rocketseat.com.br/static/a4edba24f9a571dbb09c831694960cdf.png) 0% 0% / cover fixed, rgb(11, 10, 13);
+    background-attachment: fixed;
+    max-height: 580px; 
+    cursor: pointer;
+}
+.card_image-container-Gostack span{
+    color: #04D361;
+    font-weight: 900;
+    font-size: 20px;
+    height: 44px;
+    padding: 15px; 
+    border-radius: 50%;
+    border: #04D361 solid 2px;
+          
+}
+.card_image-container-Gostack img{
+    padding-top: 30px;
+    height: 175px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+    .card_image-container-Gostack p strong{
+    color: #04D361;
+    font-weight: 900;
+        
+    }
+.card_image-container-Gostack p{
+    text-align: center;
+    max-width: 280px;
+    padding: 0px 90px;
+    margin: 20px 0px;  
+    line-height: 25px;
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 85px;
+
+    
+}
+.card_image-container-Gostack .card-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2px;
+    max-height: 80px;
+    
+}
+.card_image-container-Gostack .card-info h1{
+    color: #04D361;
+    height: 80px;
+
+}
+.card_image-container-Gostack .card-info h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100px;
+    max-height: 30px;
+    border-radius: 10px;
+    border: solid #04D361 2px;
+    margin-left: 65px;
+}
+/* === MODAL === */
+.modal-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal{
+    background-color: #282a36;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+.modal .close-modal{
+    color: #7159C1;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    
+}
+/* ===MODAL.ACTIVE=== */
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+iframe{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+}
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Cursos</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/Rocketseat/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="LogoStack.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="/Styles-Conteúdos.css">
+</head>
+<body>
+    
+    <header>
+        
+    </header>
+    <section class="cards">
+        {% for item in items %}
+            <div class="card" id="/{{item.id}}">
+                <div class="{{item.course}}">
+                        <span>{{item.idn}}</span>
+                        <div>
+                            <img src="{{item.img}}" alt="Imagem de {{item.title}}">
+                        </div>
+                        <p>
+                            {{item.title}}
+                        </p>
+                        <div class="card-info">
+                            <h1>{{item.duration}}</p>
+                            <h2>{{item.price}}</h1>
+                        </div>
+                </div>
+            </div>
+        {% endfor %}    
+       
+    </section>
+    
+    <script src="Courses.js"></script>
+</body>
+
